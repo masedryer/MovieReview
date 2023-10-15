@@ -1,0 +1,90 @@
+body{
+    font-family:arial;
+    background-color: #1b1b32;
+    color:white;
+
+}
+.container{
+    display:block;
+    border:1px #fdb347 solid;
+    padding: 16px;
+    background-color: #0a0a23;
+    text-align:center;
+
+
+}
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    padding-top: 2em;
+
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+    color:#0D256E;
+    margin:0 auto;
+
+}
+label {
+    display: block;
+
+}
+input[type=text], input[type=password], input[type=date] {
+    background-color: ind;
+    height: 20px;
+    width:60%;
+    padding: 3px 3px;
+    line-height: normal;
+    border:black;
+    margin:0 auto;
+
+
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+input[type="submit"]{
+    display:block;
+    width:30%;
+    margin:1em auto;
+    background-color: #fdb347;
+    border:0;
+    align-items: center;
+    height:30px;
+    font-weight: bold;
+    font-size:16px;
+}
+
+
+input[type="submit"]:hover{
+    background-color: #fdb347;
+    width:32%;
+    height:32px;
+    color: #1b1b32;
+    cursor: pointer;
+}
+.divider{
+    background-color:#1b1b32 ;
+    padding:0;
+    margin:0;
+    width:100%;
+}
+.divider hr{
+    color: #fdb347;
+}
+.divider a{
+    color: #fdb347;
+}
+.divider a:active{
+  color:orangered;
+}
+
+
